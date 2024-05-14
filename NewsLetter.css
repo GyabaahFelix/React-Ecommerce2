@@ -1,0 +1,68 @@
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #ff9393, #ff6b6b, #ff4141, #ff6b6b, #ff9393);
+    background-size: 200% 200%; /* Expand the background size */
+    padding: 50px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 50px auto;
+    max-width: 1000px;
+}
+
+
+.newsletter h1 {
+    color: #333333;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.newsletter div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    gap: 10px;
+}
+
+.newsletter input[type="email"] {
+    width: 70%;
+    padding: 15px 20px;
+    border: 1px solid #cccccc;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.newsletter input[type="email"]:focus {
+    border: 1px solid #ff6b6b;
+}
+
+.newsletter button {
+    padding: 15px 30px;
+    border-radius: 25px;
+    background: black; /* Change background color to black */
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.newsletter button:hover {
+    background: #333; /* Darken the background color on hover */
+}
