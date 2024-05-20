@@ -1,0 +1,115 @@
+.loginsignup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffcccc; /* Pink background */
+  }
+  
+  .loginsignup-container {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .loginsignup h1 {
+    margin-bottom: 20px;
+  }
+  
+  .loginsignup-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .loginsignup-fields input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .loginsignup-fields input::placeholder {
+    color: #999;
+  }
+  
+  .loginsignup button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff0000; /* Red button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .loginsignup button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+  }
+  
+  .loginsignup-login {
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .loginsignup-login p {
+    margin: 0;
+    color: #333;
+  }
+  
+  .loginsignup-login span {
+    color: #ff0000; /* Red 'Login here' text */
+    cursor: pointer;
+  }
+  
+  .loginsignup-agree {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .loginsignup-agree input[type="checkbox"] {
+    display: none; /* Hide default checkbox */
+  }
+  
+  .loginsignup-agree input[type="checkbox"] + label {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+    vertical-align: middle; /* Align checkbox vertically with text */
+  }
+  
+  .loginsignup-agree input[type="checkbox"]:checked + label::before {
+    content: "\2713"; /* Unicode check mark character */
+    display: block;
+    text-align: center;
+    line-height: 15px;
+  }
+  
+  .loginsignup-agree p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    display: inline-block;
+    vertical-align: middle; /* Align text vertically with checkbox */
+  }
+  
+  .loginsignup-agree p span {
+    color: #ff0000; /* Red 'terms of use' and 'privacy policy' text */
+    cursor: pointer;
+  }
+  
