@@ -1,13 +1,12 @@
-// Cart.js
-
 import React from 'react';
+import CartItems from '../Components/CartItems/CartItems';
 
 const Cart = () => {
   return (
     <div>
-      {/* Add cart items here */}
+      <CartItems/>
     </div>
-  );
+  )
 }
 
 export default Cart;
