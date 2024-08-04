@@ -1,0 +1,40 @@
+.item {
+    width: 350px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.item p {
+    margin: 10px 0;
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.item-prices {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.item-price-new {
+    color: #ff6b6b;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.item-price-old {
+    color: #a0a0a0;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}

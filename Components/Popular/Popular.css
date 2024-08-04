@@ -1,0 +1,79 @@
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    min-height: 90vh;
+    padding: 40px 20px;
+    background: linear-gradient(180deg, #f7f9fc 0%, #ffffff 100%);
+    margin-top: 150px; /* Adjusted top margin to move it more down */
+}
+
+.popular h1 {
+    color: #333333;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.popular hr {
+    width: 100px;
+    height: 4px;
+    border-radius: 5px;
+    background: #ff6b6b;
+    margin: 0;
+}
+
+.popular-item {
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.popular-item .card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.popular-item .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.popular-item .card h2 {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.popular-item .card p {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.popular-item .card button {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background: #ff6b6b;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.popular-item .card button:hover {
+    background: #ff4b4b;
+}
