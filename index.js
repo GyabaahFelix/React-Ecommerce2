@@ -1,12 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import ShopContextProvider from './Context/ShopContext';
-import './index.css';
+const port = 4000;
+const express = require("express");
+const app = express();
+const mongoose = require("mongoose");
+const jwt = require("jsonwebtoken");
+const multer = require("multer")
+const path = require("path")
+const cors = require("cors")
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <ShopContextProvider>
-     <App />
-  </ShopContextProvider>
-);
+app.use(express.json());
+app.use(cors());
+
